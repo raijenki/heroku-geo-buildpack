@@ -1,4 +1,4 @@
-Heroku Buildpack: Geo
+Heroku Buildpack: Geo + Apt
 =====================
 
 This is a **very wonky** buildpack for Heroku, which install geolibraries and also reads Aptitude files (for installing dependencies such as OpenCV).
