@@ -20,7 +20,7 @@ $ heroku buildpacks
 
 Also, you should have a file named `Aptfile` which lists all apt dependencies for installation. This is done before the installation of geolibraries.
 
-**NOTE:** If installing Python GDAL, choose to use `pygdal==2.4.0.4` instead of the normal `gdal` library at requirements.txt. The former uses `numpy` as dependency, so you won't have issues with gdal_arrays.
+**NOTE:** If installing Python GDAL, choose to use `pygdal==2.4.0.6` instead of the normal `gdal` library at requirements.txt. The former uses `numpy` as dependency, so you won't have issues with gdal_arrays.
 
 **NOTE 2:** If installing Python OpenCV, you should use `libgl1`, `libsm6`, `libxrender1`, `libfontconfig1`, `libice6` at your `Aptfile` and then `python-opencv` at requirements.txt.
 
